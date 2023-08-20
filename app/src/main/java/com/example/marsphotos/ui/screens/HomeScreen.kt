@@ -48,7 +48,7 @@ fun HomeScreen(
         is MarsUiState.Error -> ErrorScreen( modifier = modifier.fillMaxSize())
     }
     }
-}
+
 
 @Composable
 fun LoadingScreen(modifier: Modifier = Modifier) {
